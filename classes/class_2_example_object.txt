@@ -1,0 +1,14 @@
+Instance: The Next Best Restaurant
+
+Attributes:
+closeTime = 22:00
+currentParttimeEmployees = ["Paul", "Savannah", "Deidree"]
+isClosed = false
+menuOptions = ["brunch", "lunch", "dinner", "late night"]
+managerOnDuty = "Dave Smith"
+
+Methods:
+closeRestaurant => isClosed = true
+fireParttimeEmployee => currentParttimeEmployees = ["Paul", "Deidree"]
+addLateNight => closeTime = 01:00
+updateMOD => managerOnDuty = "Rihanna"
