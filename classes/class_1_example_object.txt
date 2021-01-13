@@ -1,0 +1,14 @@
+Instance: The Best Restaurant
+
+Attributes:
+restaurantName = "The Best Restaurant"
+openTime = 03:00
+restaurantCapacity = 45
+currentFulltimeEmployees = ["Skylar", "Karissa", "Jerrikah", "Ryan"]
+isOpen = false
+
+Methods:
+openRestaurant => isOpen = true
+addEmployee => currentFulltimeEmployees = ["Skylar", "Karissa", "Jerrikah", "Ryan", "Tammy"]
+decreaseCapacity => restaurantCapacity = 44
+addBrunch => openTime = 11:00
