@@ -1,0 +1,14 @@
+Class: Restaurant
+
+Attributes:
+closeTime (datetime)
+currentParttimeEmployees (array of strings)
+isClosed (boolean)
+menuOptions (array of strings)
+managerOnDuty (string)
+
+Methods:
+closeRestaurant (updates isClosed to true)
+fireParttimeEmployee (removes - 1 employee from currentParttimeEmployees)
+addLateNight (updates closeTime to a later time)
+updateMOD (updates managerOnDuty to current MOD)
