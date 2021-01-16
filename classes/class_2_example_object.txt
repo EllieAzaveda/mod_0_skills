@@ -8,7 +8,7 @@ menuOptions = ["brunch", "lunch", "dinner", "late night"]
 managerOnDuty = "Dave Smith"
 
 Methods:
-closeRestaurant => isClosed = true
+closeUp => isClosed = true
 fireParttimeEmployee => currentParttimeEmployees = ["Paul", "Deidree"]
 addLateNight => closeTime = 01:00
 updateMOD => managerOnDuty = "Rihanna"

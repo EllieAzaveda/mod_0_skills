@@ -1,15 +1,14 @@
 Class: Restaurant
 
 Attributes:
-restaurantName (string)
+name (string)
 openTime (datetime)
-restaurantCapacity (integer)
+capacity (integer)
 currentFulltimeEmployees (array of strings)
 isOpen (boolean)
 
 Methods:
-openRestaurant (updates isOpen to true)
+openUp (updates isOpen to true)
 addEmployee (adds + 1 new employee to currentFulltimeEmployees)
 decreaseCapacity (updates restaurantCapacity to a lower int - 1)
 addBrunch (updates openTime to earlier time of day)
- 

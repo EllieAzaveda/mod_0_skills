@@ -1,0 +1,14 @@
+Class: Restaurant
+
+Attributes:
+servers (array of "strings")
+bartenders (array of "strings")
+managerOnDuty = ("string")
+bartenderStartTime = (datetime)
+numOfFrontEnd = (integer)
+
+Methods:
+updateMOD (updates managerOnDuty to current MOD)
+hireBartender (adds newly hired bartender name to bartenders)
+addBartenderDuties (updates bartenderStartTime to 1 hour earlier)
+updateAfterNewHire (adds + 1 employee to numOfFrontEnd)

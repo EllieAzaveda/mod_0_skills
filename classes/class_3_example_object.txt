@@ -1,0 +1,14 @@
+Instance: employees
+
+Attributes:
+servers = ["Paul", "Savannah", "Deidree"]
+bartenders = ["Rafael", "Michael", "Petra"]
+managerOnDuty = "Jane Villanueva"
+bartenderStartTime = 12:00
+numOfFrontEnd = 6
+
+Methods:
+updateMOD => managerOnDuty = "Leslie Knope"
+hireBartender => bartenders = ["Rafael", "Michael", "Petra", "Mateo"]
+addBartenderDuties => bartenderStartTime = 11:00
+updateAfterNewHire => numOfFrontEnd = 7

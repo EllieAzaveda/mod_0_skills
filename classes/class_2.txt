@@ -8,7 +8,7 @@ menuOptions (array of strings)
 managerOnDuty (string)
 
 Methods:
-closeRestaurant (updates isClosed to true)
+closeUp (updates isClosed to true)
 fireParttimeEmployee (removes - 1 employee from currentParttimeEmployees)
 addLateNight (updates closeTime to a later time)
 updateMOD (updates managerOnDuty to current MOD)
