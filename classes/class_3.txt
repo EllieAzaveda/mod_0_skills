@@ -1,14 +1,14 @@
-Class: Restaurant
+Class: Employee
 
 Attributes:
-servers (array of "strings")
-bartenders (array of "strings")
-managerOnDuty = ("string")
-bartenderStartTime = (datetime)
-numOfFrontEnd = (integer)
+uniform (array of "strings")
+numOfHoursRequested (integer)
+weeklySchedule (array of "string")
+breaksPerShift (integer)
+dayOff (boolean)
 
 Methods:
-updateMOD (updates managerOnDuty to current MOD)
-hireBartender (adds newly hired bartender name to bartenders)
-addBartenderDuties (updates bartenderStartTime to 1 hour earlier)
-updateAfterNewHire (adds + 1 employee to numOfFrontEnd)
+updateHoursToFulltime (Update numOfHours to 40)
+addDoubleShift (Updates breaksPerShift + 2)
+requestDayOff (Update dayOff to true)
+cancelBrunch (Remove all brunch shifts from weeklySchedule)
